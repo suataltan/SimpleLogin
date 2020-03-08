@@ -1,0 +1,81 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: greenyellow;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6aff2f), color-stop(40%), to(#fcff2f));
+  background: linear-gradient(#6aff2f, 40%, #fcff2f);
+  height: 90vh;
+}
+
+main {
+  margin: auto;
+  margin-top: 10vh;
+  width: 360px;
+  background-color: white;
+  border-radius: 25px;
+  opacity: 0.98;
+}
+
+main h2 {
+  padding-left: 75px;
+  color: #87ca23;
+}
+
+main .textboxes {
+  width: 200px;
+  padding-left: 75px;
+}
+
+main .textboxes input {
+  height: 25px;
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 35px;
+  border-color: greenyellow;
+  border-style: solid;
+}
+
+main #terms {
+  padding-left: 10px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+main #terms #hidden {
+  margin-top: 1rem;
+  display: none;
+  overflow-y: scroll;
+  height: 30vh;
+}
+
+main button {
+  background-color: transparent;
+  font-size: large;
+  color: #a1f02c;
+  margin: 20px 35px;
+  width: 80%;
+  height: 40px;
+  border-radius: 35px;
+  border-color: greenyellow;
+  border-style: solid;
+}
+
+main .otherText {
+  margin: 0 0 15px 0;
+  display: inline;
+  padding-left: 15px;
+}
+
+main .otherLink {
+  margin: 0 0 15px 0;
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */

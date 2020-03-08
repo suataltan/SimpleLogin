@@ -1,0 +1,74 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: greenyellow;
+	background: linear-gradient(#6aff2f,40%, rgb(252, 255, 47));
+	height: 90vh;
+}
+
+main {
+	margin: auto;
+	margin-top: 10vh;
+	width: 360px;
+	background-color: white;
+	border-radius: 25px;
+	opacity: 0.98;
+
+	h2 {
+		padding-left: 75px;
+		color: rgb(135, 202, 35);
+	}
+	.textboxes {
+		width: 200px;
+		padding-left: 75px;
+
+		input {
+			height: 25px;
+			width: 100%;
+			margin: 10px 0;
+			border-radius: 35px;
+			border-color: greenyellow;
+			border-style: solid;
+		}
+	}
+	#terms {
+		padding-left: 10px;
+		height: auto;
+		margin-bottom: 20px;
+
+		#hidden {
+			margin-top: 1rem;
+			display: none;
+			overflow-y: scroll;
+			height: 30vh;
+		}
+
+	}
+	button {
+		background-color: transparent;
+		font-size: large;
+		color: rgb(161, 240, 44);
+		margin: 20px 35px;
+		width: 80%;
+		height: 40px;
+		border-radius: 35px;
+		border-color: greenyellow;
+		border-style: solid;
+	}
+	.otherText {
+		margin: 0 0 15px 0;
+		display: inline;
+		padding-left: 15px;
+	}
+	.otherLink {
+		margin: 0 0 15px 0;
+		padding-left: 10px;
+	}
+}
+a {
+	text-decoration: none;
+}
